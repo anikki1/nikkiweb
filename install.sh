@@ -1,4 +1,4 @@
-gitRoot="https://github.com/twallace27603/nikkiweb"
+gitRoot="https://raw.githubusercontent.com/twallace27603/nikkiweb/main"
 serverUrl="$gitRoot/pythonWebServer.py"
 serviceUrl="$gitRoot/pythonweb.service"
 serverFile="/usr/local/bin/pythonWebServer.py"
