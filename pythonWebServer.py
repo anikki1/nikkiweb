@@ -29,9 +29,9 @@ class MyServer(BaseHTTPRequestHandler):
         if self.path.find('api') == -1:
             self.send_header("Content-type", "text/html")
             self.end_headers()
-            self.wfile.write(bytes("<html><head><title>INE Simple web site.</title></head>", "utf-8"))
+            self.wfile.write(bytes("<html><head><title>Nikki Simple web site.</title></head>", "utf-8"))
             self.wfile.write(bytes("<body>", "utf-8"))
-            self.wfile.write(bytes("<h2>INE Simple Web App</h2>", "utf-8"))
+            self.wfile.write(bytes("<h2>Nikki Simple Web App</h2>", "utf-8"))
             self.wfile.write(bytes("<p>This web app is written with a simple Python script. It is not robust, so be gentle.</p>", "utf-8"))
             self.wfile.write(bytes("<table><tr style='text-align:left'><th>Setting</th><th>Value</ht></tr>", "utf-8"))
             self.wfile.write(bytes(f"<tr><td>Host name</td><td>{actualHostName}</td></tr>", "utf-8"))
